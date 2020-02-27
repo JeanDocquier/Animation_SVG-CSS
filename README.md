@@ -32,11 +32,10 @@ Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la p
 ### 6. Exemple (En SASS)
 /** ON REALISE L'ANIMATION DE CHANGEMENT DE COULEUR **/
 
-
-@keyframes changecolor {
-   0%   {
-       fill : #fcacac;
-    }
+  @keyframes changecolor {
+     0%   {
+        fill : #fcacac;
+     }
   25%  {
       fill : #ac9ded;
     }
