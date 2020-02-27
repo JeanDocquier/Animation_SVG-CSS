@@ -31,7 +31,6 @@ Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la p
 
 ### 6. Exemple (En SASS)
 /** ON REALISE L'ANIMATION DE CHANGEMENT DE COULEUR **/
-
 @keyframes changecolor {
    0%   {
        fill : #fcacac;
@@ -48,7 +47,6 @@ Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la p
 }
 
 /** ON REALISE L'ANIMATION DE MOUVEMENT **/
-
 @keyframes movesvg { 
    0%   {
        transform: translateY(0);
@@ -61,7 +59,6 @@ Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la p
     }
 }
 /** ON CIBLE LE FICHIER VECTORIEL ET LES TRACES ET ON APPLIQUE LES ANNIMATIONS **/
-
 #jean_logo{ // On cible l'élément SVG et on lui applique l'annimation de mouvement avec 'animation: movesvg 2s infinite;' 
     width: 500px;
     animation: movesvg 2s infinite; 
