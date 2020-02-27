@@ -36,43 +36,45 @@ Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la p
            0%   {
              fill : #fcacac;
            }
-  25%  {
-      fill : #ac9ded;
-    }
-  75%  {
-      fill : #befab9;
-    }
-  100% {
-      fill : #fcacac;
-    }
-}
+           25%  {
+             fill : #ac9ded;
+           }
+          75%  {
+            fill : #befab9;
+          }
+         100% {
+          fill : #fcacac;
+          }
+        }
 
 /** ON REALISE L'ANIMATION DE MOUVEMENT **/
-@keyframes movesvg { 
-   0%   {
-       transform: translateY(0);
-    }
-  50%  {
-      transform: translateY(30px);
-    }
-  100% {
-      transform: translateY(0);
-    }
-}
+
+        @keyframes movesvg { 
+           0%   {
+            transform: translateY(0);
+            }
+          50%  {
+            transform: translateY(30px);
+          }
+          100% {
+            transform: translateY(0);
+          }
+        }
 /** ON CIBLE LE FICHIER VECTORIEL ET LES TRACES ET ON APPLIQUE LES ANNIMATIONS **/
-#jean_logo{ // On cible l'élément SVG et on lui applique l'annimation de mouvement avec 'animation: movesvg 2s infinite;' 
-    width: 500px;
-    animation: movesvg 2s infinite; 
-    polygon{ //On cible une 
-        fill : white;
-        animation: changecolor 2s infinite; 
-    }
-    // On cible les tracés et on leur appliquel'annimation de changement de couleurs avec des timings différents avec 'animation: changecolor 3s infinite; ' 
-    path:nth-of-type(1){
-        animation: changecolor 3s infinite; 
-        fill : white;
-    }
-    path:nth-of-type(2){
-        fill : white;
-        animation: changecolor 4s infinite; 
-}
+
+        #jean_logo{ // On cible l'élément SVG et on lui applique l'annimation de mouvement avec 'animation: movesvg 2s infinite;' 
+            width: 500px;
+            animation: movesvg 2s infinite; 
+            polygon{ //On cible une 
+                fill : white;
+                animation: changecolor 2s infinite; 
+            }
+            // On cible les tracés et on leur appliquel'annimation de changement de couleurs avec des timings différents avec 'animation: changecolor 3s infinite; ' 
+            path:nth-of-type(1){
+                animation: changecolor 3s infinite; 
+                fill : white;
+            }
+            path:nth-of-type(2){
+                fill : white;
+                animation: changecolor 4s infinite; 
+        }
