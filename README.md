@@ -64,13 +64,14 @@ On réalise l'animation de mouvement
 On cible le fichier vectoriel et les tracés. ON applique ensuite les animations
 
         #jean_logo{ // On cible l'élément SVG et on lui applique l'annimation de mouvement avec 'animation: movesvg 2s infinite;' 
-            width: 500px;
+            width: 500px; // On défini la largeur du SVG à 500px
             animation: movesvg 2s infinite; 
-            polygon{ //On cible une 
+             // On cible les tracés/polygon et on leur applique l'annimation de changement de couleurs avec des timings différents avec 'animation: changecolor 3s infinite; 
+            polygon{
                 fill : white;
                 animation: changecolor 2s infinite; 
             }
-            // On cible les tracés et on leur appliquel'annimation de changement de couleurs avec des timings différents avec 'animation: changecolor 3s infinite; ' 
+           ' 
             path:nth-of-type(1){
                 animation: changecolor 3s infinite; 
                 fill : white;
