@@ -12,7 +12,7 @@ Le code SVG se compose de plusieurs balises :
 4. <g> : Balise regroupant les éléments que vous avez groupé dans votre fichier Illustrator
 5. <polygon> : Balise indiquant que votre forme est un polygone (forme créé avec l'outil polygone d'Illustrator).
 6. <path> : Balise indiquant que votre forme est un tracé que vous avez dessiné "vous-meme".
-
+ 
 Vous remarquerez que vos balises <polygon> et <path> sont respectivement composés d'attributs "points" et "d". Ces attributs ont en valeur une longue série de chiffres. Il s'agit en fait des coordonnées vectorielles qui permettent à HTML de retracer vos formes. Il vaut donc mieux laisser ces valeurs tranquilles sous peine de voir votre illustation déformée. 
 
 ### 4. Sélecteurs CSS du code SVG
