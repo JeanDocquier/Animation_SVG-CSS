@@ -30,7 +30,7 @@ Vous pouvez réaliser des animations différentes pour chaque tracé de votre fi
 Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la propriété "fill" et non "background". 
 
 ### 6. Exemple (En SASS)
-/** ON REALISE L'ANIMATION DE CHANGEMENT DE COULEUR **/
+On réalise l'animation de changement de couleur de fond
 
         @keyframes changecolor {
            0%   {
@@ -47,7 +47,7 @@ Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la p
           }
         }
 
-/** ON REALISE L'ANIMATION DE MOUVEMENT **/
+On réalise l'animation de mouvement
 
         @keyframes movesvg { 
            0%   {
@@ -60,7 +60,8 @@ Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la p
             transform: translateY(0);
           }
         }
-/** ON CIBLE LE FICHIER VECTORIEL ET LES TRACES ET ON APPLIQUE LES ANNIMATIONS **/
+
+On cible le fichier vectoriel et les tracés. ON applique ensuite les animations
 
         #jean_logo{ // On cible l'élément SVG et on lui applique l'annimation de mouvement avec 'animation: movesvg 2s infinite;' 
             width: 500px;
