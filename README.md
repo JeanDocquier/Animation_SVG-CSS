@@ -80,3 +80,6 @@ On cible le fichier vectoriel et les tracés. ON applique ensuite les animations
                 fill : white;
                 animation: changecolor 4s infinite; 
         }
+
+
+Exemple ici : https://jeandocquier.github.io/Animation_SVG-CSS/?fbclid=IwAR3aOx9xPlQXI_K9HAJLo9mTJ8zVJ1JiQC6AGzIB8FCW5dL3rHQhmX2gwwI
