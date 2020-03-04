@@ -30,6 +30,38 @@ Vous pouvez réaliser des animations différentes pour chaque tracé de votre fi
 Attention, si vous voulez changer la couleur de fond, il faut bien utiliser la propriété "fill" et non "background". 
 
 ### 6. Exemple (En SASS)
+
+Code HTML 
+
+    <div class="svg-wrapper">
+           <h1>Animation SVG ::CSS</h1>
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="jean_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+            <style type="text/css">
+                .st0 {
+                    fill: #E73335;
+                }
+
+            </style>
+            <g>
+                <polygon class="st0" points="415.38,349.76 415.38,628.88 657.11,489.32 518.64,409.38 	" />
+                <path class="st0" d="M48.57,696.72c65.28,148.73,201.96,259.18,366.45,287.84L48.57,696.72z" />
+                <path class="st0" d="M499.75,6.9c-28.78,0-56.93,2.62-84.37,7.38v217.87c-25.6-14.75-51.19-29.52-76.94-44
+		c-2.92-1.63-5.83-3.27-8.75-4.9V37.18C141.65,106.58,7.21,287.6,7.21,499.45c0,25.14,1.91,49.83,5.57,73.97l316.92,248.93v-26.47
+		c0.59-0.33,1.22-0.59,1.8-0.94c9.5-5.15,18.94-10.41,28.32-15.77c18.59-10.47,37.06-21.16,55.57-31.78v237.22
+		c27.44,4.76,55.59,7.38,84.37,7.38c271.59,0,492.55-220.96,492.55-492.55C992.31,227.86,771.35,6.9,499.75,6.9z M358.71,759.45
+		c-7.02,4.18-14.05,8.35-21.07,12.53c-2.89,1.62-5.59,3.52-8.39,5.27l-0.45-572.21c0.3,0.18,0.6,0.36,0.9,0.54v-0.48
+		c2.55,1.51,5.08,3.07,7.64,4.57c25.92,15.33,145.82,85.28,173.34,100.76c3.36,1.88,6.72,3.77,10.09,5.65L824.98,492
+		C824.98,492,390.49,740.61,358.71,759.45z" />
+            </g>
+        </svg>
+
+
+    </div>
+
+
 On réalise l'animation de changement de couleur de fond
 
         @keyframes changecolor {
